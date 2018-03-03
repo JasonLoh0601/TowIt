@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "797131251607",
+    "firebase_url": "https://towit-9e02f.firebaseio.com",
+    "project_id": "towit-9e02f",
+    "storage_bucket": "towit-9e02f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797131251607:android:a40774a79cf6f518",
+        "android_client_info": {
+          "package_name": "com.world.jasonloh95.towit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797131251607-04ql5tv31bfb03tmeqjqgnqdlt25qlki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.world.jasonloh95.towit",
+            "certificate_hash": "391b707f52ec70c9306b2b12f1181b7e0d454ac7"
+          }
+        },
+        {
+          "client_id": "797131251607-5ajorqff9v32jjflanuip1fc1gc9b8l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOf5hCcLfuvBNisK_-Q6l1MI6p30YRW8E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797131251607-5ajorqff9v32jjflanuip1fc1gc9b8l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

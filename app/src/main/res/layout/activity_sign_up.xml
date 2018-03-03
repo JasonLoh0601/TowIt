@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6aca6b"
+    tools:context="com.world.jasonloh95.towit.SignUp">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="358dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints"
+        android:layout_above="@+id/email"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/contact_Number"
+        android:layout_width="361dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_above="@+id/Password"
+        android:layout_alignStart="@+id/Password" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Min. 6 Characters"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:layout_marginBottom="27dp"
+        android:layout_above="@+id/register"
+        android:layout_alignStart="@+id/name" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="361dp"
+        android:layout_height="49dp"
+        android:text="Register"
+        android:background="#54a355"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="293dp"
+        android:layout_above="@+id/loginconnector"
+        android:layout_alignEnd="@+id/name" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="name@example.com"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="141dp"
+        android:layout_above="@+id/contact_Number"
+        android:layout_alignEnd="@+id/contact_Number" />
+
+    <TextView
+        android:id="@+id/loginconnector"
+        android:layout_width="247dp"
+        android:layout_height="26dp"
+        android:text="Already Have an Account? Sign In Here!"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="242dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp" />
+
+</RelativeLayout>
